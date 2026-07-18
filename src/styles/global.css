@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=Special+Elite&family=UnifrakturMaguntia&display=swap');
+
+:root {
+  --color-base: #1F2120;
+  --color-wood: #433324;
+  --color-ivory: #FFFFF3;
+  --color-red: #B82010;
+  --color-amber: #D4870A;
+  --color-brass: #8C7B4A;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-base);
+  color: var(--color-ivory);
+  font-family: 'Special Elite', 'Courier New', Courier, monospace;
+  min-height: 100vh;
+}
+
+h1, .gothic-font {
+  font-family: 'UnifrakturMaguntia', 'MedievalSharp', serif;
+}
+
+h2, h3 {
+  font-family: 'MedievalSharp', 'Special Elite', sans-serif;
+  letter-spacing: 1px;
+}
+
+* {
+  box-sizing: border-box;
+}

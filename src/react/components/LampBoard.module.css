@@ -1,0 +1,58 @@
+.board {
+  background-color: var(--color-base);
+  border: 2px solid var(--color-wood);
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.8), 0 4px 6px rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+
+.title {
+  color: var(--color-brass);
+  font-size: 1.4rem;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--color-brass);
+  padding-bottom: 0.5rem;
+}
+
+.keyboardLayout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 0.35rem;
+}
+
+.lamp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-color: #121312;
+  color: #555552;
+  border: 2px solid var(--color-wood);
+  font-family: 'Special Elite', 'Courier New', Courier, monospace;
+  font-size: 1.1rem;
+  font-weight: bold;
+  user-select: none;
+  transition: all 0.15s ease-in-out;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.lit {
+  background-color: var(--color-amber);
+  color: var(--color-ivory);
+  border-color: var(--color-brass);
+  box-shadow: 0 0 12px 4px var(--color-amber);
+  text-shadow: 0 0 4px rgba(255, 255, 255, 0.8);
+}
